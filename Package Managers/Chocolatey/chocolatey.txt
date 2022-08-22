@@ -1,0 +1,87 @@
+# https://community.chocolatey.org/install.ps1
+[
+Copy content to install.ps1
+]
+
+[
+wget -O install.ps1 https://community.chocolatey.org/install.ps1
+]
+
+# If files from a previous installation of Chocolatey were found
+# rm -rf "C:\ProgramData\chocolatey"
+
+[
+$ winpty powershell
+> powershell
+
+PS> $PSVersionTable
+]
+
+# PowerShell $ pwsh --version $ pwsh
+$ export PATH=$PATH:"/C/Users/Rajani/Downloads/PowerShell/Binary/PowerShell-7.2.1-win-x64/"
+
+# PowerShell > pwsh --version > pwsh
+> set path=%path%;C:\Users\Rajani\Downloads\PowerShell\Binary\PowerShell-7.2.1-win-x64\
+
+pwsh --version
+
+pwsh
+
+PS> $PSVersionTable
+
+PS> Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+
+[
+Exception: Installation of Chocolatey to default folder requires Administrative permissions. Please run from elevated prompt. Please see
+https://chocolatey.org/install for details and alternatives if needing to install as a non-administrator.
+]
+PS> exit
+
+# Extracting C:\Users\Rajani\AppData\Local\Temp\chocolatey\chocoInstall\chocolatey.zip to C:\Users\Rajani\AppData\Local\Temp\chocolatey\chocoInstall
+$ export PATH=$PATH:"/C/Users/Rajani/AppData/Local/Temp/chocolatey/chocoInstall/tools/chocolateyInstall/"
+> set path=%path%;C:\Users\Rajani\AppData\Local\Temp\chocolatey\chocoInstall\tools\chocolateyInstall\
+
+choco --version
+
+# Directory 'C:\Users\Rajani\AppData\Local\Temp\chocolatey\chocoInstall\tools\chocolateyInstall\lib' does not exist.
+$ mkdir -p "C:\Users\Rajani\AppData\Local\Temp\chocolatey\chocoInstall\tools\chocolateyInstall\lib"
+> mkdir "C:\Users\Rajani\AppData\Local\Temp\chocolatey\chocoInstall\tools\chocolateyInstall\lib"
+
+choco info zip
+
+choco install zip
+# Extracting C:\Users\Rajani\AppData\Local\Temp\chocolatey\zip\3.0\zip300xn-x64.zip to C:\Users\Rajani\AppData\Local\Temp\chocolatey\chocoInstall\tools\chocolatey
+# Install\lib\zip\tools...
+# C:\Users\Rajani\AppData\Local\Temp\chocolatey\chocoInstall\tools\chocolateyInstall\lib\zip\tools
+
+$ export PATH=$PATH:"/C/Users/Rajani/AppData/Local/Temp/chocolatey/chocoInstall/tools/chocolateyInstall/lib/zip/tools/"
+> set path=%path%;C:\Users\Rajani\AppData\Local\Temp\chocolatey\chocoInstall\tools\chocolateyInstall\lib\zip\tools\
+
+zip --version
+
+choco uninstall zip
+# Chocolatey uninstalled 1/1 packages.
+# See the log for details (C:\Users\Rajani\AppData\Local\Temp\chocolatey\chocoInstall\tools\chocolateyInstall\logs\chocolatey.log).
+$ cat "C:\Users\Rajani\AppData\Local\Temp\chocolatey\chocoInstall\tools\chocolateyInstall\logs\chocolatey.log"
+> type "C:\Users\Rajani\AppData\Local\Temp\chocolatey\chocoInstall\tools\chocolateyInstall\logs\chocolatey.log"
+
+choco install wget
+
+# Software installed to 'C:\Users\Rajani\AppData\Local\Temp\chocolatey\chocoInstall\tools\chocolateyInstall\lib\Wget\tools'
+$ export PATH=$PATH:"/C/Users/Rajani/AppData/Local/Temp/chocolatey/chocoInstall/tools/chocolateyInstall/lib/Wget/tools/"
+> set path=%path%;C:\Users\Rajani\AppData\Local\Temp\chocolatey\chocoInstall\tools\chocolateyInstall\lib\Wget\tools\
+
+wget -V
+[
+wget -O install.ps1 https://community.chocolatey.org/install.ps1
+]
+
+$ mkdir -p "C:\ProgramData\chocolatey\lib"
+> mkdir "C:\ProgramData\chocolatey\lib"
+
+choco find wget
+choco list
+choco list --local-only
+[
+choco uninstall wget
+]

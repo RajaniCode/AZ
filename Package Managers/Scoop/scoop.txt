@@ -1,0 +1,88 @@
+# https://get.scoop.sh
+[
+Copy content to install.ps1
+]
+[
+wget -O install.ps1 https://get.scoop.sh 
+]
+
+
+[
+$ winpty powershell
+> powershell
+
+PS> $PSVersionTable
+]
+
+# PowerShell $ pwsh --version $ pwsh
+$ export PATH=$PATH:"/C/Users/Rajani/Downloads/PowerShell/Binary/PowerShell-7.2.1-win-x64/"
+
+# PowerShell > pwsh --version > pwsh
+> set path=%path%;C:\Users\Rajani\Downloads\PowerShell\Binary\PowerShell-7.2.1-win-x64\
+
+pwsh --version
+
+pwsh
+
+PS> $PSVersionTable
+
+PS> Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
+# Or shorter
+PS> iwr -useb get.scoop.sh | iex
+# Note: If you get an error you might need to change the execution policy (i.e. enable Powershell) with
+# PS> Set-ExecutionPolicy RemoteSigned -scope CurrentUser
+
+PS> exit
+
+$ export PATH=$PATH:"/C/Users/Rajani/scoop/shims/"
+> set path=%path%;C:\Users\Rajani\scoop\shims\
+
+scoop help
+
+scoop info zip
+
+[
+scoop install sudo
+sudo scoop install 7zip git openssh --global
+]
+scoop install zip
+
+[
+$ export PATH=$PATH:"/C/Users/Rajani/scoop/apps/zip/3.0/"
+> set path=%path%;C:\Users\Rajani\scoop\apps\zip\3.0\
+]
+
+zip --version
+
+scoop uninstall zip
+
+
+scoop info 7zip
+
+scoop install 7zip
+
+[
+$ export PATH=$PATH:"/C/Users/Rajani/scoop/apps/7zip/21.06/"
+> set path=%path%;C:\Users\Rajani\scoop\apps\7zip\21.06\
+]
+
+7z -version
+
+scoop uninstall 7zip
+
+
+scoop info wget
+
+scoop install wget
+
+[
+$ export PATH=$PATH:"/C/Users/Rajani/scoop/apps/wget/1.21.2/"
+> set path=%path%;C:\Users\Rajani\scoop\apps\wget\1.21.2\
+]
+
+wget -V
+[
+wget -O install.ps1 https://get.scoop.sh 
+]
+
+scoop uninstall wget

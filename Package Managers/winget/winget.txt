@@ -1,0 +1,16 @@
+# winget
+where winget
+[
+C:\Users\Rajani\AppData\Local\Microsoft\WindowsApps\winget.exe
+]
+
+winget --version
+
+winget --help
+
+# https://docs.microsoft.com/en-us/windows/powertoys/
+winget show powertoys
+
+winget install --id Microsoft.PowerToys
+
+winget uninstall powertoys
