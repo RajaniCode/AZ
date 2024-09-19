@@ -18,5 +18,5 @@ Credits
 [mongodb.com](https://mongodb.com/)  
 [min.io](https://min.io/)  
 [terraform.io](https://terraform.io/)  
-[rules.sonarsource.com/azureresourcemanager](https://rules.sonarsource.com/azureresourcemanager/)  
-[app.diagrams.net](https://app.diagrams.net/)
+[app.diagrams.net](https://app.diagrams.net/)  
+[rules.sonarsource.com/azureresourcemanager](https://rules.sonarsource.com/azureresourcemanager/)
