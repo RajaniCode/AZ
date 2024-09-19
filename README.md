@@ -17,6 +17,6 @@ Credits
 [expressjs.com](https://expressjs.com/)  
 [mongodb.com](https://mongodb.com/)  
 [min.io](https://min.io/)  
-[erraform.io]https://terraform.io/  
+[terraform.io](https://terraform.io/)  
 [rules.sonarsource.com/azureresourcemanager](https://rules.sonarsource.com/azureresourcemanager/)  
 [app.diagrams.net](https://app.diagrams.net/)
