@@ -22,6 +22,8 @@ Credits/linuxcontainers.org.svg?raw=true)](https://linuxcontainers.org/)
 [![image](
 Credits/ubuntu.com.svg?raw=true)](https://ubuntu.com/)  
 [![image](
+Credits/multipass.run.svg?raw=true)](https://multipass.run/)  
+[![image](
 Credits/multipass.run.svg)](https://multipass.run/)  
 [![image](
 Credits/docker.com.svg?raw=true)](https://docker.com/)  
