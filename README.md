@@ -22,7 +22,7 @@ Credits/ubuntu.com.svg?raw=true)](https://ubuntu.com/)
 [![image](
 Credits/multipass.run.svg?raw=true)](https://multipass.run/)  
 [![image](
-Credits/multipass.run.svg?raw=true)](https://docker.com/)  
+Credits/docker.comsvg?raw=true)](https://docker.com/)  
 [![image](
 Credits/nginx.org.svg?raw=true)](https://nginx.org/)  
 [![image](
