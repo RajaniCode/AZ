@@ -10,7 +10,7 @@ Credits/azure.microsoft.com.svg?raw=true)](https://azure.microsoft.com/)
 [![image](
 Credits/kubernetes.io.svg?raw=true)](https://kubernetes.io/)  
 [![image](
-Credits/minikube.sigs.k8s.io.svg?raw=true)](https://minikube.sigs.k8s.io/)  
+Credits/minikube.sigs.k8s.io1.svg?raw=true)](https://minikube.sigs.k8s.io/)  
 [![image](
 Credits/k3s.io.svg?raw=true)](https://k3s.io/)  
 [![image](
