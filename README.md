@@ -10,7 +10,7 @@ Credits/azure.microsoft.com.svg?raw=true)](https://azure.microsoft.com/)
 [![image](
 Credits/kubernetes.io.svg?raw=true)](https://kubernetes.io/)  
 [![image](
-Credits/minikube.sigs.k8s.io1.svg?raw=true)](https://minikube.sigs.k8s.io/)  
+Credits/minikube.sigs.k8s.io.svg?raw=true)](https://minikube.sigs.k8s.io/)  
 [![image](
 Credits/k3s.io.svg?raw=true)](https://k3s.io/)  
 [![image](
@@ -39,6 +39,8 @@ Credits/mongodb.com.svg?raw=true)](https://mongodb.com/)
 Credits/minio.io.svg?raw=true)](https://minio.io)  
 [![image](
 Credits/terraform.io.svg?raw=true)](https://terraform.io/)  
+[![image](
+Credits/hashicorp.com.svg?raw=true)](https://hashicorp.com/)  
 [![image](
 Credits/yaml.io.svg?raw=true)](https://yaml.io/)  
 [![image](
