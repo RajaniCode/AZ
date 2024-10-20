@@ -44,4 +44,6 @@ Credits/yaml.io.svg?raw=true)](https://yaml.io/)
 [![image](
 Credits/owasp.org.svg?raw=true)](https://owasp.org/)  
 [![image](
+Credits/Azure-learn.microsoft.com.svg?raw=true)](https://learn.microsoft.com/azure/)  
+[![image](
 Credits/AzureResourceManager-static-code-analysis-rules.sonarsource.com.svg?raw=true)](https://rules.sonarsource.com/azureresourcemanager/)
