@@ -16,7 +16,7 @@ Credits/microk8s.io.svg?raw=true)](https://microk8s.io/)
 [![image](
 Credits/ubuntu.com.svg?raw=true)](https://ubuntu.com/)  
 [![image](
-Credits/multipass.run/.svg?raw=true)](https://multipass.run/)  
+Credits/multipass.run.svg?raw=true)](https://multipass.run/)  
 [![image](
 Credits/multipass.run.svg?raw=true)](https://docker.com/)  
 [![image](
