@@ -8,6 +8,8 @@ Credits
 [![image](
 Credits/azure.microsoft.com.svg)](https://azure.microsoft.com/)  
 [![image](
+Credits/developer.microsoft.com.svg)](https://developer.microsoft.com/)  
+[![image](
 Credits/microsoft.com.svg)](https://microsoft.com/)  
 [![image](
 Credits/kubernetes.io.svg)](https://kubernetes.io/)  
